@@ -1,0 +1,93 @@
+body {
+    background-color: #323232;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+  }
+  
+h1 {
+    font-size: 64px;
+
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#player-indicator {
+  margin-bottom: 48px;
+  font-size: 32px;
+}
+
+.cp {
+  font-size: 48px;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    border-spacing: 0;
+  }
+
+
+  
+  td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 64px;
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+    padding-top: 10px;
+    transition: 125ms;
+    cursor: pointer;
+  }
+
+  td:hover {
+    background-color: #ffffff20;
+
+  }
+  
+  td:not(:first-child) {
+    border-left: 5px solid white;
+  }
+  
+  td:not(:last-child) {
+    border-right: 5px solid white;
+  }
+  
+  tr:not(:first-child) td {
+    border-top: 5px solid white;
+  }
+  
+  tr:not(:last-child) td {
+    border-bottom: 5px solid white;
+  }
+  
+  #restart-button {
+    width: 200px;
+    height: 64px;
+    background-color: #196da9; /* Grau, wenn disabled */
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 80px;
+    border-radius: 8px;
+    transition: 225ms;
+  }
+
+  #restart-button:hover {
+    background-color: #4b96cb;
+  }
+  
+  
